@@ -9,16 +9,19 @@
   <body>
     <form class="form_connexion_inscription">
       <h1>INSCRIPTION</h1>
+      <span class="message_error"></span>
       <label>Addresse email</label>
       <input type="email" name="email" />
       <label>Mot de passe</label>
-      <input type="password" name="mdp1" />
+      <input type="password" name="password" id="password" />
       <label>Confirmez mot de passe</label>
-      <input type="password" name="mdp1" />
+      <input type="password" name="confirm_password" id="password_password" />
       <input type="submit" value="Inscription" />
       <p class="link">
         Vous avez un compte ? <a href="index.html">Se connecter</a>
       </p>
     </form>
+
+    <script src="script.js"></script>
   </body>
 </html>
